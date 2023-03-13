@@ -1,0 +1,2 @@
+## About ##
+I created this project towards a challenge for Global Hack Week (GHW) in March 2023, hosted by Major League Hacking (MLH).  This is a hack that I wanted to create to address food security, to encourage people to donate to food banks by scheduling it.

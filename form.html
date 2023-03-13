@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an appointment with a food bank!</title>
+    <link rel="stylesheet" href="form.css"/>
+    <script>
+        function getAlert() {
+            alert("Appointment made! See you then!");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Want to donate food?</h1>
+        <p>So you have a bunch of food donations, but you keep
+            forgetting to bring them to the food bank...hence wasting
+            the food.  No more worries about that, why don't you book
+            an appointment with nearest food bank and they will give
+            you a call!
+        </p>
+        <form>
+            <label for="food_bank_names">Choose your food bank:</label>
+            <select name="food_bank_names" id="food_bank_names">
+                <option value="Lynnwood Food Bank">Lynnwood Food Bank</option>
+                <option value="St. Vincent de Paul">St. Vincent De Paul</option>
+                <option value="University Food Bank">University Food Bank</option>
+                <option value="Queen Anne Food Bank">Queen Anne Food Bank</option>
+                <option value="The Food Bank @ St. Mary's">The Food Bank @ St. Mary's</option>
+            </select><br>
+            <label for="pick_date">Choose a date:</label>
+            <input type="date"><br>
+            <button 
+                class="submit"
+                onclick="getAlert()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
